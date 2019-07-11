@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/images/">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Movie Trivie Game</title>
+</head>
+
+<body>
+    <div class=jumbotron>
+        <h1>Summer Blockbuster Movie Trivia!</h1>
+
+        <p>Test your knowledge with some difficult movie trivia questions based off of summer blockbusters</p>
+
+        <button id="start" type="button" class="btn btn-lg btn-danger">Start</button><br>
+        <div class="countdown"></div>
+
+        <form id="triviaOne" name="trivia">
+            <p>What is the name of the monsters that King Kong fight in Skull Island?</p>
+            <input class="answerOne" type="radio" name="questionOne" value="1"> Skull Eater<br>
+            <input class="answerTwo" type="radio" name="questionOne" value="2"> Bone Crusher<br>
+            <input class="answerThree" type="radio" name="questionOne" value="3"> Kong Crusher<br>
+            <input class="answerFour" type="radio" name="questionOne" value="4"> Skull Crawler<br>
+        </form>
+        <br>
+        <form id="triviaTwo" name="trivia">
+            <p>What is the name of the genetically modified dinosaur in Jurassic World?</p>
+            <input class="answerOne" type="radio" name="questionTwo" value="1"> Mosasauras Rex <br>
+            <input class="answerTwo" type="radio" name="questionTwo" value="2"> Indominus Rex<br>
+            <input class="answerThree" type="radio" name="questionTwo" value="3"> Velociraptor Rex<br>
+            <input class="answerFour" type="radio" name="questionTwo" value="4"> Camouflage Rex<br>
+        </form>
+        <br>
+        <form id="triviaThree" name="trivia">
+            <p>Which one of these actors has not played Spider-Man in a live action movie?</p>
+            <input class="answerOne" type="radio" name="questionThree" value="1"> Tobey Maguire<br>
+            <input class="answerTwo" type="radio" name="questionThree" value="2"> Tom Holland<br>
+            <input class="answerThree" type="radio" name="questionThree" value="3"> Jake Johnson<br>
+            <input class="answerFour" type="radio" name="questionThree" value="4"> Andrew Garfield<br>
+        </form>
+        <br>
+        <form id="triviaFour" name="trivia">
+            <p>How many Fast and Furious movies have been released?</p>
+            <input class="answerOne" type="radio" name="questionFour" value="6"> 6<br>
+            <input class="answerTwo" type="radio" name="questionFour" value="9"> 9<br>
+            <input class="answerThree" type="radio" name="questionFour" value="7"> 7<br>
+            <input class="answerFour" type="radio" name="questionFour" value="8"> 8<br>
+        </form>
+        <br>
+        <form id="triviaFive" name="trivia">
+            <p>In The Equalizer, what is the name of the book Denzel Washingtons character was reading?</p>
+            <input class="answerOne" type="radio" name="questionFive" value="1"> Harry Potter<br>
+            <input class="answerTwo" type="radio" name="questionFive" value="2"> Hamlet<br>
+            <input class="answerThree" type="radio" name="questionFive" value="3"> Pride and Prejudice<br>
+            <input class="answerFour" type="radio" name="questionFive" value="4"> Old Man and the Sea<br>
+        </form><br>
+
+        <div class="countdown"></div>
+        <button id="submit" type="button" class="btn btn-lg btn-success">Submit</button><br>
+
+
+
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+
+</html>
